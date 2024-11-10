@@ -1,0 +1,182 @@
+.header-text-judul {
+    font-size: 2rem !important;
+}
+
+.top-bar-icon i {
+    font-size: 24px;
+    /* Atur ukuran font ikon */
+    width: 40px;
+    /* Lebar tetap */
+    height: 40px;
+    /* Tinggi tetap */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar-item {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-text h3,
+.top-bar-text p {
+    margin: 0;
+}
+
+
+.carousel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Atur menjadi cover agar gambar memenuhi elemen */
+}
+
+/* Tambahkan di file CSS Anda atau dalam tag <style> di dalam <head> */
+.red-icon {
+    color: rgb(160, 8, 8) !important;
+    /* Ubah warna ikon menjadi merah */
+}
+
+.single-featured-cars {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Efek bayangan */
+    transition: box-shadow 0.3s ease;
+}
+
+.single-featured-cars:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* Efek bayangan lebih besar saat hover */
+}
+
+.featured-img-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.featured-cars-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Tambahkan bayangan pada card */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-shadow:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* Bayangan lebih besar saat hover */
+}
+
+/* Spinner Styles */
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1.2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(1) {
+    animation-delay: -0.3s;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: 0s;
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 8px;
+        left: 8px;
+        width: 64px;
+        height: 64px;
+        opacity: 0;
+    }
+}
+
+.icon-whatsapp {
+    font-size: 25px;
+    color: rgb(236, 167, 62);
+}
+
+.wa-text {
+    font-size: 1rem !important;
+    color: rgb(236, 167, 62);
+}
+
+.keterangan-mobil-text {
+    color: rgb(160, 8, 8);
+}
+
+.container-sent-wa:hover .wa-text {
+    color: rgb(216, 17, 17);
+    /* Hover pada teks */
+}
+
+.container-sent-wa:hover .icon-whatsapp {
+    color: rgb(216, 17, 17);
+    /* Hover pada ikon */
+}
+
+
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 300px !important;
+        /* Sesuaikan ketinggian sesuai kebutuhan */
+    }
+}
+
+
+/* Tambahkan media query untuk ukuran layar di bawah lg */
+@media (max-width: 992px) {
+    .top-bar-item {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .top-bar-icon {
+        margin-bottom: 5px;
+    }
+}
