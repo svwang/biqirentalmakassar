@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- URL utama halaman Anda -->
+  <url>
+    <loc>https://svwang.github.io/biqirentalmakassar/</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Tambahkan halaman lain jika ada -->
+  <url>
+    <loc>https://svwang.github.io/biqirentalmakassar/index.html</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://svwang.github.io/biqirentalmakassar/about.html</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://svwang.github.io/biqirentalmakassar/service.html</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://svwang.github.io/biqirentalmakassar/produk.html</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://svwang.github.io/biqirentalmakassar/contact.html</loc>
+    <lastmod>2024-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
